@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\user\Desktop\git\2023_verilog\2023_verilog\DAY2\MUX\sim
+vmux4_1
+!i10b 1
+!s100 a9=Vb_fIMS<VD5hX89dC]3
+IMLFoa;Idm_nGCR11oDZ]A1
+VBVLBM2ORIZY^BDKoEc>a22
+Z1 dC:\Users\user\Desktop\git\2023_verilog\2023_verilog\DAY2\MUX\sim
+w1688538635
+Z2 8../src/rtl/mux4_1.v
+Z3 F../src/rtl/mux4_1.v
+L0 1
+Z4 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z5 !s108 1688538700.905000
+Z6 !s107 ../testbench/testbench.v|../src/rtl/mux4_1.v|
+Z7 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+vtestbench
+!i10b 1
+!s100 WFh0J>faP:ekED;eXB<`X2
+IL4F`;PN]9>C]B1GPO?TeY3
+Z8 VhGfW:390DM[oDMzegDH9`2
+R1
+w1688538686
+Z9 8../testbench/testbench.v
+Z10 F../testbench/testbench.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+o-O0
