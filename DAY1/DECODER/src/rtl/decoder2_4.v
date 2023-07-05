@@ -1,18 +1,10 @@
 module decoder2_4(
-    in,
-    out1,
-    out2,
-    out3,
-    out4
+    input [1:0] in,
+    output reg out1,
+    output reg out2,
+    output reg out3,
+    output reg out4
 );
-
-input [1:0] in;
-
-output reg out1;
-output reg out2;
-output reg out3;
-output reg out4;
-
 
 always @(*) begin
     if(in == 2'b00)
