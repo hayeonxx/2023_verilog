@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\user\Desktop\git\2023_verilog\2023_verilog\DAY5\JHONSON_COUNTER\sim
+vjhonson_counter
+!i10b 1
+!s100 8YER65D:KlOnok7ohODP60
+I@kh_bkQ@?c79a^Ci>zY_M2
+Z1 VWESYQ]XShS1bnUkDbZ6]L0
+Z2 dC:\Users\user\Desktop\git\2023_verilog\2023_verilog\DAY5\JHONSON_COUNTER\sim
+w1688972262
+Z3 8../src/rtl/jhonson_counter.v
+Z4 F../src/rtl/jhonson_counter.v
+L0 1
+Z5 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z6 !s108 1688972288.168000
+Z7 !s107 ../testbench/testbench.v|../src/rtl/jhonson_counter.v|
+Z8 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+vtestbench
+!i10b 1
+Z9 !s100 GGcPKK]ZR_M5X1Uea]>HW1
+Z10 I=V]Cf;ARl9>PCbbDMcL9[2
+Z11 VhGfW:390DM[oDMzegDH9`2
+R2
+Z12 w1688972190
+Z13 8../testbench/testbench.v
+Z14 F../testbench/testbench.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+o-O0
