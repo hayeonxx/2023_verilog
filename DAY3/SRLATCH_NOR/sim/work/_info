@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\user\Desktop\git\2023_verilog\2023_verilog\DAY3\SRLATCH_NOR\sim
+vsrlatch_nor
+!i10b 1
+Z1 !s100 1^U8jB=BUCYmKXk2bH3_V3
+Z2 Idao_HSF2U==lXVA57Qza?3
+Z3 VV3`B@1:P1b?KVJTWGQ=lo1
+Z4 dC:\Users\user\Desktop\git\2023_verilog\2023_verilog\DAY3\SRLATCH_NOR\sim
+w1688625434
+Z5 8../src/rtl/srlatch_nor.v
+Z6 F../src/rtl/srlatch_nor.v
+L0 1
+Z7 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z8 !s108 1688625440.875000
+Z9 !s107 ../testbench/testbench.v|../src/rtl/srlatch_nor.v|
+Z10 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+vtestbench
+!i10b 1
+Z11 !s100 M6_a?]]_o:[Ii3kNa7nKa2
+Z12 IR]m0O@SoL@U>Y8ZjH9Lz^3
+Z13 VhGfW:390DM[oDMzegDH9`2
+R4
+Z14 w1688624919
+Z15 8../testbench/testbench.v
+Z16 F../testbench/testbench.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+o-O0
