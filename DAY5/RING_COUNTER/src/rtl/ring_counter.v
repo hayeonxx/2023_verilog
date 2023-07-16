@@ -6,9 +6,9 @@ module ring_counter(
 
 always @(posedge clk or negedge n_rst) begin
     if(!n_rst)
-        out = 4'b0001;
+        out <= 4'b0001;
     else
-        out = {out[2:0], out[3]};
+        out <= {out[2:0], out[3]};
 end
 
 endmodule

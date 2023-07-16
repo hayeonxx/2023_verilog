@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\user\Desktop\git\2023_verilog\2023_verilog\DAY6\SHIFT_REGISTER\sim
+vshift_register
+!i10b 1
+!s100 gXB0YKZVAaOZ9E?2?R3mH2
+IoElYR=]j245d;aLaR=IcE0
+V5P`4@;^foM3KRkbI<AlBZ2
+Z1 dC:\Users\user\Desktop\git\2023_verilog\2023_verilog\DAY6\SHIFT_REGISTER\sim
+w1689140656
+8../src/rtl/shift_register.v
+F../src/rtl/shift_register.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z3 !s108 1689140660.708000
+Z4 !s107 ../testbench/testbench.v|../src/rtl/shift_register.v|
+Z5 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+vtestbench
+!i10b 1
+Z6 !s100 XPc497FoWCdBP3`LEP3b13
+Z7 I5nM22aeSDSC:JWSZCEcLg3
+Z8 VhGfW:390DM[oDMzegDH9`2
+R1
+Z9 w1689140597
+Z10 8../testbench/testbench.v
+Z11 F../testbench/testbench.v
+L0 3
+R2
+r1
+!s85 0
+31
+R3
+R4
+R5
+!s101 -O0
+o-O0
