@@ -8,7 +8,7 @@ vfull_adder
 Z1 !s100 _EAGH=2?2ZMN`nXWF2Sn23
 Z2 I:bQb2IiEgj1DOZZ<MTUU=3
 Z3 VB7WM8d812O]eMLA5TKo`U1
-Z4 dC:\Users\user\Desktop\git\2023_verilog\2023_verilog\DAY8\RCA\sim
+Z4 dC:\Users\user\Desktop\git\2023_verilog\2023_verilog\16_RCA\sim
 Z5 w1689235266
 Z6 8../src/rtl/full_adder.v
 Z7 F../src/rtl/full_adder.v
@@ -17,7 +17,7 @@ Z8 OV;L;10.1d;51
 r1
 !s85 0
 31
-Z9 !s108 1689236816.787000
+Z9 !s108 1689562177.846000
 Z10 !s107 ../testbench/testbench.v|../src/rtl/full_adder.v|../src/rtl/half_adder.v|../src/rtl/rca.v|
 Z11 !s90 -reportprogress|300|-f|run.f|
 !s101 -O0
@@ -43,11 +43,11 @@ R11
 o-O0
 vrca
 !i10b 1
-Z18 !s100 6PJY<5^aF7GfZ1DkWD]XB0
-Z19 IID[j]>okkLM<Y]MH9gnH`2
+Z18 !s100 LWG33C^B3zJ^6h`bilAeM3
+Z19 IO6P]afYN^7d@N<K5hLQgY1
 Z20 VPlEH]Y=J=M?9`=iKWMcH53
 R4
-Z21 w1689234930
+Z21 w1689560287
 Z22 8../src/rtl/rca.v
 Z23 F../src/rtl/rca.v
 L0 1
@@ -66,7 +66,7 @@ vtestbench
 I]iBA438Of77FdSMfd9QhE2
 Z24 VhGfW:390DM[oDMzegDH9`2
 R4
-w1689236806
+w1689562161
 Z25 8../testbench/testbench.v
 Z26 F../testbench/testbench.v
 L0 1

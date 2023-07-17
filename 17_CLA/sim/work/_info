@@ -1,0 +1,119 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\user\Desktop\git\2023_verilog\2023_verilog\17_CLA\sim
+vcla
+!i10b 1
+Z1 !s100 ]0ND89<?SFmB;;_4??Kfz2
+Z2 ILBS[znOHYS8WmOIcd=RaT2
+Z3 VGX7dZVEX0elg4jCJO;gkH0
+Z4 dC:\Users\user\Desktop\git\2023_verilog\2023_verilog\17_CLA\sim
+Z5 w1689583847
+Z6 8../src/rtl/cla.v
+Z7 F../src/rtl/cla.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z9 !s108 1689584496.946000
+Z10 !s107 ../testbench/testbench.v|../src/rtl/lookaheadunit_4bit.v|../src/rtl/full_adder.v|../src/rtl/cla.v|
+Z11 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+vfa
+Z12 IjGM7HAN?kiM_7>Q0HUiIN3
+Z13 VIWfOH8Em]:[d;n`O7E_[k0
+R4
+Z14 w1689583038
+Z15 8../src/rtl/full_adder.v
+Z16 F../src/rtl/full_adder.v
+L0 1
+R8
+r1
+31
+Z17 !s108 1689583727.502000
+Z18 !s107 ../testbench/testbench.v|../src/rtl/lookaheadunit_4bit.v|../src/rtl/full_adder.v|../src/rtl/cla.v|
+R11
+o-O0
+Z19 !s100 2ZWF<6]ao2XRiO7HoU7hV3
+!i10b 1
+!s85 0
+!s101 -O0
+vfull_adder
+!i10b 1
+Z20 !s100 [D@mDgC[acQANmkmdQ]`L2
+Z21 IM5YNdaUW?A@hLWm8aFH7=0
+Z22 V<6dLRc]BH3kbNFLP2UiVl1
+R4
+w1689584235
+R15
+R16
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vlookaheadunit_4bit
+!i10b 1
+Z23 !s100 Q^004NYYfDnY]UIW;KL<;1
+Z24 I0ie5;g;9LnTGho^J[bm:52
+Z25 VfZHzf6>kBYAz]Jd>C3;EO3
+R4
+Z26 w1689583923
+Z27 8../src/rtl/lookaheadunit_4bit.v
+Z28 F../src/rtl/lookaheadunit_4bit.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vlookaheadunit_bit4
+Z29 !s100 ze0FIVa0DIj^LOOZ?hLFF0
+Z30 IQAm0[BSRn;NdMFNon7a583
+Z31 VVbm]<Z570]?:[^R`WC4AK1
+R4
+Z32 w1689583795
+R27
+R28
+L0 1
+R8
+r1
+31
+Z33 !s108 1689583898.925000
+R18
+R11
+o-O0
+!i10b 1
+!s85 0
+!s101 -O0
+vtestbench
+!i10b 1
+!s100 O_3effDmg7BMUMM5]HGWh0
+I>S[I7l1Lg0EX2>i]bI^R92
+Z34 VhGfW:390DM[oDMzegDH9`2
+R4
+w1689584464
+Z35 8../testbench/testbench.v
+Z36 F../testbench/testbench.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
