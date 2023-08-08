@@ -1,2 +1,2 @@
-../src/rtl/booth_multiplier.v
+../src/rtl/shift_add_multi.v
 ../testbench/testbench.v

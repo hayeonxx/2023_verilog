@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\user\Desktop\git\2023_verilog\2023_verilog\14_GRAY_COUNTER\sim
+vgray_counter
+!i10b 1
+Z1 !s100 :KO9YJ<ol>?;_?=a=MPkP0
+Z2 Ij<<j[MaEjMMejmM6I:6@g2
+Z3 VMI<WniLB5nLg1jWKWQPf@2
+Z4 dC:\Users\user\Desktop\git\2023_verilog\2023_verilog\14_GRAY_COUNTER\sim
+w1690943171
+Z5 8../src/rtl/gray_counter.v
+Z6 F../src/rtl/gray_counter.v
+L0 1
+Z7 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z8 !s108 1690943178.254000
+Z9 !s107 ../testbench/testbench.v|../src/rtl/gray_counter.v|
+Z10 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+vtestbench
+!i10b 1
+!s100 QeT=KMFJh`=`8g<GnTSc33
+IAH_O5:CedYGaM`eQn>K3i0
+Z11 VhGfW:390DM[oDMzegDH9`2
+R4
+w1690943153
+Z12 8../testbench/testbench.v
+Z13 F../testbench/testbench.v
+L0 4
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+o-O0

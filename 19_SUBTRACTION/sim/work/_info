@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\user\Desktop\git\2023_verilog\2023_verilog\19_SUBTRACTION\sim
+vfull_adder
+!i10b 1
+Z1 !s100 _EAGH=2?2ZMN`nXWF2Sn23
+Z2 I:bQb2IiEgj1DOZZ<MTUU=3
+Z3 VB7WM8d812O]eMLA5TKo`U1
+Z4 dC:\Users\user\Desktop\git\2023_verilog\2023_verilog\19_SUBTRACTION\sim
+Z5 w1689579687
+Z6 8../src/rtl/full_adder.v
+Z7 F../src/rtl/full_adder.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z9 !s108 1691027616.075000
+Z10 !s107 ../testbench/testbench.v|../src/rtl/sub.v|../src/rtl/half_adder.v|../src/rtl/full_adder.v|
+Z11 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+vhalf_adder
+!i10b 1
+Z12 !s100 [;OD?11j`KkXl;SaA]@[33
+Z13 I[UEQGE@]7emSMQ5^iVQaT0
+Z14 V0G0zYN;BElePifaRUiAah0
+R4
+Z15 w1689216528
+Z16 8../src/rtl/half_adder.v
+Z17 F../src/rtl/half_adder.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vsub
+!i10b 1
+!s100 <g9c]=ld>bNVT=PQm8b=:1
+I:5QU4oA;5`<nEMW76:l:e3
+Z18 VWEK;GXzzD;5EDc0O]K]ZH1
+R4
+w1691027608
+Z19 8../src/rtl/sub.v
+Z20 F../src/rtl/sub.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vtestbench
+!i10b 1
+Z21 !s100 RM5ZM^D`_nJ1TN^;=:1Zc2
+Z22 ISEX5oLoCBPRjUm0K1g1LP3
+Z23 VhGfW:390DM[oDMzegDH9`2
+R4
+Z24 w1691026918
+Z25 8../testbench/testbench.v
+Z26 F../testbench/testbench.v
+L0 4
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0

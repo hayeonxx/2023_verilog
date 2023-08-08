@@ -1,18 +1,21 @@
-module(
-    input clk;
-    input n_rst;
-    output reg [3:0] out;
-
-    reg q0, q1, q2;
-    reg [3:0] count;
-
-    always @(posedge clk or negedge n_rst) begin
-        if(!n_rst)
-            count = 4'b0;
-            out = 4'b0;
-        else
-            count = count + 1'b1;
-            q2 = count[3] * 
-
+module gray_counter(
+    input clk,
+    input n_rst,
+    output reg [3:0] gray
 );
+
+reg [3:0] cnt;
+
+always @(posedge clk or negedge n_rst) begin
+    if(!n_rst) begin
+        cnt <= 4'b0000;
+        gray <= 4'b0000;
+    end
+    else begin
+        cnt = cnt + 1'b1;
+        gray = cnt ^ (cnt >> 1); //change gray
+    end
+end
+
 endmodule
+
