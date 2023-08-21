@@ -1,4 +1,4 @@
-module tx(v
+module tx(
   clk,
   n_rst,
   tx_data,
@@ -53,34 +53,34 @@ end
 reg [7:0] in_data;
 
 always @(posedge clk or negedge n_rst) begin
-    if(!n_rst)
-        in_data <= 8'h00;
-    else if (state == WRITE) begin
-        in_data <= (txen == 1'b1) ? {1'b0, in_data[7:1]} : in_data; //TXEN =1 -> right shift
-    end
-    else if (state == START) begin
-        in_data <= tx_data;
-    end
-    else
-        in_data <= in_data;
+  if(!n_rst)
+    in_data <= 8'h00;
+  else if (state == WRITE) begin
+    in_data <= (txen == 1'b1) ? {1'b0, in_data[7:1]} : in_data; //TXEN =1 -> right shift
+  end
+  else if (state == START) begin
+    in_data <= tx_data;
+  end
+  else
+    in_data <= in_data;
 end
 
 always @(posedge clk or negedge n_rst) begin
-    if(!n_rst) begin
-        txd <= 1'b1;
-    end
-    else if(state == START) begin
-        txd <= 1'b0;
-    end
-    else if(state == WRITE) begin
-        txd <= (txen == 1'b0) ? in_data[0] : txd; //txen = 0 -> in_data[0] out(right shift) 
-    end
-    else if(state ==STOP) begin
-        txd <= 1'b1;
-    end
-    else begin
-        txd <= txd;
-    end
+  if(!n_rst) begin
+    txd <= 1'b1;
+  end
+  else if(state == START) begin
+    txd <= 1'b0;
+  end
+  else if(state == WRITE) begin
+    txd <= (txen == 1'b0) ? in_data[0] : txd; //txen = 0 -> in_data[0] out(right shift) 
+  end
+  else if(state ==STOP) begin
+    txd <= 1'b1;
+  end
+  else begin
+    txd <= txd;
+  end
 end
 endmodule
   

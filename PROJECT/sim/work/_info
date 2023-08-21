@@ -1,0 +1,138 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\user\Desktop\git\2023_verilog\2023_verilog\PROJECT\sim
+vedge_detection
+!i10b 1
+Z1 !s100 <?[cJ1nkcKb9QzUPajzT_3
+Z2 I3lKH``JK]cO;_dW?@oU5i0
+Z3 V3an^ehQf88NIn=7EoRH8L3
+Z4 dC:\Users\user\Desktop\git\2023_verilog\2023_verilog\PROJECT\sim
+Z5 w1691478721
+Z6 8../src/rtl/edge_detection.v
+Z7 F../src/rtl/edge_detection.v
+L0 3
+Z8 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z9 !s108 1692152316.456000
+Z10 !s107 ../testbench/testbench.v|../src/rtl/uart.v|../src/rtl/tx.v|../src/rtl/rx.v|../src/rtl/gen_en.v|../src/rtl/edge_detection.v|../src/rtl/fnd.v|
+Z11 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+vfnd
+!i10b 1
+Z12 !s100 =AXDmQ]`HQ0^0E?MoiJSa1
+Z13 IN`FeBjnhKI2j`;74Vk]KA2
+Z14 VdaVLGF6G:>2k3XiXoF`hc2
+R4
+R5
+Z15 8../src/rtl/fnd.v
+Z16 F../src/rtl/fnd.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vgen_en
+!i10b 1
+!s100 1bX3g10k6Ug2KSPKaiRE]2
+Iz2TAo<BE>?ezM1YCU_c`g2
+V`5[OLB8XcdmnJ1LzzBM^P2
+R4
+w1692152305
+Z17 8../src/rtl/gen_en.v
+Z18 F../src/rtl/gen_en.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vrx
+!i10b 1
+Z19 !s100 F^9WfZSg<eTgl:d;NSMOY0
+Z20 Ilfk^Q6ak5AzJe8b>T@9F33
+Z21 VaWNnIIjoQbI@;MkAOmPW33
+R4
+Z22 w1691476152
+Z23 8../src/rtl/rx.v
+Z24 F../src/rtl/rx.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vtestbench
+!i10b 1
+Z25 !s100 LR`R1^30=R<2=6:0=7McO3
+Z26 IYA:?LP^3O?il?=0LjH6D_3
+Z27 VhGfW:390DM[oDMzegDH9`2
+R4
+Z28 w1692151964
+Z29 8../testbench/testbench.v
+Z30 F../testbench/testbench.v
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vtx
+!i10b 1
+Z31 !s100 0Xzn<5eW:MC0jYAA@]2e[1
+Z32 IWE>]FE7_M:8W;^E<4H^aH0
+Z33 Vm2HG]aFe0D9nIE8G[T69N3
+R4
+Z34 w1692152081
+Z35 8../src/rtl/tx.v
+Z36 F../src/rtl/tx.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vuart
+!i10b 1
+Z37 !s100 POC_X3hS]o7]?TH0cNTKU3
+Z38 IA=K`doc>Tbd@VI8E9_T9A0
+Z39 VX?9C_;?9QGiojCP;`i2Km0
+R4
+Z40 w1692152275
+Z41 8../src/rtl/uart.v
+Z42 F../src/rtl/uart.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0

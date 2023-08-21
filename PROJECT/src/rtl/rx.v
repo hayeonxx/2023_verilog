@@ -56,15 +56,15 @@ reg sclk;
    
 always @(posedge clk or negedge n_rst) begin
   if (!n_rst)
-      sclk <= 1'b1;
+    sclk <= 1'b1;
   else begin
-      if (c_cnt1 < 16'h0A2D)
-          sclk <= 1'b1;
-      else
-          sclk <= 1'b0;
+    if (c_cnt1 < 16'h0A2D)
+      sclk <= 1'b1;
+    else
+      sclk <= 1'b0;
   end
 end
-    
+   
 always @(state or c_cnt1) 
   case (state)
     IDLE: n_cnt1 = 16'h0001;

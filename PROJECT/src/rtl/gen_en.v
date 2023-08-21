@@ -1,13 +1,13 @@
 module gen_en(
   clk,
   n_rst,
-  sw_g,
+  sw,
   txen
 );
 
 input clk;
 input n_rst;
-input sw_g;
+input sw;
 
 output txen; 
 
@@ -15,7 +15,7 @@ localparam MAX9600 = 13'd5208;
 localparam MAX19200 = 13'd2604;
 wire MAX;
 
-assign MAX = (sw_g === 1'b0) ? MAX9600 : MAX19200;
+assign MAX = (sw === 1'b0) ? MAX9600 : MAX19200;
 
 reg [12:0] cnt; 
 
