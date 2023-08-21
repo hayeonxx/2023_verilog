@@ -25,7 +25,7 @@ wire txen;
 wire in_txd;
 wire falling;
 wire out_rxd;
-wire [7:0] rxd_data;
+wire [7:0] rx_data;
 
 gen_en u_gen_en(
   .clk(clk),
@@ -56,7 +56,7 @@ rx u_rx(
   .clk(clk), 
 	.n_rst(n_rst),
 	.rxd(out_txd),
-  .rx-data(sw)
+  .rx_data(sw)
 );
 
 assign rxd = !out_rxd;
@@ -70,7 +70,6 @@ fnd u_fnd2(
   .number(rx_data[7:4]),
   .fnd_on(fnd_on2)
 );
-
 
 endmodule
   
