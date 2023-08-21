@@ -67,11 +67,12 @@ always @(posedge clk or negedge n_rst) begin
         P_re <= {P_re[9:6], Q, 1'b0};
     else begin
         if(cnt <= 3'h4 && cnt >= 3'h0) begin
-            P_re <= (P_LSB == 2'b01) ? P_re + A : 
-                (P_LSB == 2'b10) ? P_re + S : P_re;
+            P_re <= (P_LSB == 2'b01) ? P_re + A :
+                    (P_LSB == 2'b10) ? P_re + S : P_re;
         end
-        else
+        else begin
             P_re <= 10'b0_0000_0000_0;
+        end
     end
 end
 
@@ -91,11 +92,10 @@ always @(posedge clk or negedge n_rst) begin
     end
 end
 
-
 always @(posedge clk or negedge n_rst) begin
     if(!n_rst)
         result <= 8'b0000_0000;
-    else if(cnt == 3'h0) 
+    else if(start == 1'b1) 
         result <= 8'b0000_0000;
     else begin
         if(cnt <= 3'h4)
