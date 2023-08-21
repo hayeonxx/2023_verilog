@@ -5,9 +5,7 @@ module uart(
   sw,
   button,
   txd,
-  rxd,
-  fnd_on1,
-  fnd_on2
+  rxd
 );
 
 input clk;
@@ -18,8 +16,6 @@ input button;
 input rxd;
 
 output txd;
-output [6:0] fnd_on1;
-output [6:0] fnd_on2;
 
 wire txen;
 wire in_txd;
@@ -61,15 +57,6 @@ rx u_rx(
 
 assign rxd = !out_rxd;
 
-fnd u_fnd1(
-  .number(rx_data[3:0]),
-  .fnd_on(fnd_on1)
-);
-
-fnd u_fnd2(
-  .number(rx_data[7:4]),
-  .fnd_on(fnd_on2)
-);
 
 endmodule
   
