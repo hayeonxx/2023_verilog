@@ -1,0 +1,176 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\user\Desktop\git\2023_verilog\2023_verilog\FSM\sim
+vadd
+!i10b 1
+Z1 !s100 AfF_=agOlX<GWFFgl]d[L3
+Z2 IN6PF`KiZm>OOG8_6QTU]g3
+Z3 VF`1K^>KdN`>P:<ifNJ>Y^3
+Z4 dC:\Users\user\Desktop\git\2023_verilog\2023_verilog\ALU\sim
+Z5 w1693912759
+Z6 8../src/rtl/add.v
+Z7 F../src/rtl/add.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z9 !s108 1693913569.774000
+Z10 !s107 ../testbench/testbench.v|../src/rtl/mux4to1.v|../src/rtl/mul.v|../src/rtl/div.v|../src/rtl/sub.v|../src/rtl/add.v|../src/rtl/alu.v|
+Z11 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+valu
+!i10b 1
+!s100 <n`l[bXUEJ1nj37f9Q^=@1
+I=cWmZi_`1FU6l_eRmZP8>3
+Z12 Vb_a`jQgl[=o758Q^cIYzB1
+R4
+w1693913567
+Z13 8../src/rtl/alu.v
+Z14 F../src/rtl/alu.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vdiv
+!i10b 1
+Z15 !s100 D33=J_S2I?CdR9:dXmozd1
+Z16 I@jI]@E3XS4h6[[H3]R=7e3
+Z17 Vh8:^>=4n[J;T?jGb?>ZZe3
+R4
+Z18 w1693912802
+Z19 8../src/rtl/div.v
+Z20 F../src/rtl/div.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vfsm
+Z21 !s100 Ho:NVcHYI;gGU_1lj60983
+Z22 IBnOB=TW?1kkY3S4hz68Yg1
+Z23 V1@WD05R`GO;al_VW^RE5j1
+Z24 dC:\Users\user\Desktop\git\2023_verilog\2023_verilog\FSM\sim
+Z25 w1693909907
+Z26 8../src/rtl/fsm.v
+Z27 F../src/rtl/fsm.v
+L0 1
+R8
+r1
+31
+Z28 !s108 1693910310.458000
+Z29 !s107 ../testbench/testbench.v|../src/rtl/fsm.v|
+R11
+o-O0
+!i10b 1
+!s85 0
+!s101 -O0
+vfsm_ex1
+Z30 I6E9kII?bV8;PjF>4DnHJY0
+Z31 VhLCDHgnbGNII=X8JFM[=U2
+R24
+Z32 w1693911274
+R26
+R27
+L0 1
+R8
+r1
+31
+Z33 !s108 1693911320.174000
+R29
+R11
+o-O0
+Z34 !s100 N8a?11h1XZUHdCR<KLKDd2
+!i10b 1
+!s85 0
+!s101 -O0
+vmul
+!i10b 1
+Z35 !s100 3=042N?5zglgJn<7Z^m=b0
+Z36 IzaX[O=3koo3m3:_THc;R>2
+Z37 V9dd<IZFLOSMhfEab3Bzz12
+R4
+Z38 w1693912821
+Z39 8../src/rtl/mul.v
+Z40 F../src/rtl/mul.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vmux4to1
+!i10b 1
+Z41 !s100 X1LGDG=lE1jBlnXkE_RmM0
+Z42 IJ0O:^h4I@_k7^bjDkO2BQ3
+Z43 VN04izz`VBYgd;MVfZJM=F2
+R4
+Z44 w1693912933
+Z45 8../src/rtl/mux4to1.v
+Z46 F../src/rtl/mux4to1.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vsub
+!i10b 1
+Z47 !s100 F1IQ1>1U3Y<n8nii9@]_`2
+Z48 Ik_=RIb2RzoNW?O_@04f9m2
+Z49 VHgccWSG>R<=zO`hC:<jTX1
+R4
+Z50 w1693912841
+Z51 8../src/rtl/sub.v
+Z52 F../src/rtl/sub.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vtestbench
+!i10b 1
+Z53 !s100 G1IiEH`gKR2HP9izL_KN;3
+Z54 Ia^eOLBQHPJ[i]>]2U`4bZ1
+Z55 VhGfW:390DM[oDMzegDH9`2
+R4
+Z56 w1693913042
+Z57 8../testbench/testbench.v
+Z58 F../testbench/testbench.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
